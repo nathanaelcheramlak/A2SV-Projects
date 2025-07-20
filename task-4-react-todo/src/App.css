@@ -1,0 +1,72 @@
+body {
+	font-family: "Segoe UI", sans-serif;
+	background: #f3f3f3;
+	margin: 0;
+	padding: 20px;
+}
+
+.app {
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+.todo-form {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.todo-form input {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+}
+
+.todo-form button {
+	padding: 10px 16px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.todo-form button:hover {
+	background: #0056b3;
+}
+
+.todo-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.todo-item input {
+	padding: 6px;
+	flex: 1;
+	margin-right: 10px;
+}
+
+.todo-item button {
+	margin-left: 5px;
+	background: #eee;
+	border: none;
+	padding: 6px 10px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.todo-item button:hover {
+	background: #ddd;
+}
