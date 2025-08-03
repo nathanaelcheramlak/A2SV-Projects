@@ -40,9 +40,8 @@ task-7_job-listing-redux/
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   cd task-7_job-listing-redux
+   ```bash git clone https://github.com/nathanaelcheramlak/A2SV-Projects
+   cd A2SV-Projects/task-7_job-listing-redux
    ```
 2. Install dependencies:
    ```bash
